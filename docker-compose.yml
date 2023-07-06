@@ -2,7 +2,7 @@ version: '2'
 
 services:
   3proxy:
-    image: manhnv56/3proxy
+    image: manhnv56/3proxy-docker
     container_name: 3proxy
     restart: always
     environment:
