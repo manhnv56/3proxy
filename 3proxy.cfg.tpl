@@ -21,7 +21,7 @@ external __INET__
 # http proxy configuration
 flush
 auth strong
-maxconn 32
+maxconn 100
 # allow only HTTP and HTTPS traffic.
 allow * * * 80-88,8080-8088,3129-3310 HTTP
 allow * * * 443,8443 HTTPS
