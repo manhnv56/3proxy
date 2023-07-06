@@ -7,7 +7,7 @@ fi
 
 if [ -z "$SOCKS_PORT" ]; then
     # set default port
-    export SOCKS_PORT=1080
+    export SOCKS_PORT=1081
 fi
 
 # copy config template and replace variables (only first run)
