@@ -11,5 +11,5 @@ services:
     volumes:
        - ./passwd:/etc/3proxy/passwd:ro
     ports:
-      - "1083:1083"
-      - "3132:3132"
+      - "1084:1084"
+      - "3133:3133"
