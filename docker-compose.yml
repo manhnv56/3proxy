@@ -6,10 +6,10 @@ services:
     container_name: 3proxy
     restart: always
     environment:
-      - HTTP_PORT=3131
-      - SOCKS_PORT=1082
+      - HTTP_PORT=3132
+      - SOCKS_PORT=1083
     volumes:
        - ./passwd:/etc/3proxy/passwd:ro
     ports:
-      - "1082:1082"
-      - "3131:3131"
+      - "1083:1083"
+      - "3132:3132"
