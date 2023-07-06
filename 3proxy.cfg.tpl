@@ -23,14 +23,14 @@ flush
 auth strong
 maxconn 32
 # allow only HTTP and HTTPS traffic.
-allow * * * 80-88,8080-8088 HTTP
+allow * * * 80-88,8080-8088,3129-3310 HTTP
 allow * * * 443,8443 HTTPS
 proxy -n -p__HTTP_PORT__
 
 # socks5 proxy configuration
 flush
 auth strong
-maxconn 32
+maxconn 100
 socks -p__SOCKS_PORT__
 
 setgid __NOBODY__
