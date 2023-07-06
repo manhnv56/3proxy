@@ -2,7 +2,7 @@
 
 if [ -z "$HTTP_PORT" ]; then
     # set default port
-    export HTTP_PORT=3129
+    export HTTP_PORT=3130
 fi
 
 if [ -z "$SOCKS_PORT" ]; then
