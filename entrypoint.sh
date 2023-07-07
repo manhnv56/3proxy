@@ -2,12 +2,12 @@
 
 if [ -z "$HTTP_PORT" ]; then
     # set default port
-    export HTTP_PORT=3136
+    export HTTP_PORT=3137
 fi
 
 if [ -z "$SOCKS_PORT" ]; then
     # set default port
-    export SOCKS_PORT=1087
+    export SOCKS_PORT=1088
 fi
 
 # copy config template and replace variables (only first run)
