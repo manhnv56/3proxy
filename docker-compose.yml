@@ -2,14 +2,14 @@ version: '2'
 
 services:
   3proxy:
-    image: manhnv56/3proxy3133
+    image: manhnv56/3proxy3134
     container_name: 3proxy
     restart: always
     environment:
-      - HTTP_PORT=3133
-      - SOCKS_PORT=1084
+      - HTTP_PORT=3134
+      - SOCKS_PORT=1085
     volumes:
        - ./passwd:/etc/3proxy/passwd:ro
     ports:
-      - "1084:1084"
-      - "3133:3133"
+      - "1085:1085"
+      - "3134:3134"
