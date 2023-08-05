@@ -31,6 +31,7 @@ proxy -n -p__HTTP_PORT__
 flush
 auth strong
 maxconn 100
+allow * * * 1089
 socks -p__SOCKS_PORT__
 
 setgid __NOBODY__
